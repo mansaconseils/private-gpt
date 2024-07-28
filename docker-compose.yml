@@ -1,0 +1,7 @@
+version: '3.9'
+services:
+  privategpt:
+    image: 3x3cut0r/privategpt:latest
+    container_name: privategpt1
+    ports:
+      - 8080:8080/tcp
