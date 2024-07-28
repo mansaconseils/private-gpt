@@ -59,6 +59,7 @@ gradio = {version ="^4.37.2", optional = true}
 
 # Optional Google Gemini dependency
 google-generativeai = {version ="^0.5.4", optional = true}
+llama-cpp-python = "^0.2.83"
 
 [tool.poetry.extras]
 ui = ["gradio"]
